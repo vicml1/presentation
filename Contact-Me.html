@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1><em><strong>My Contact Details</strong></em></h1>
+  <p>Address: 3404 Graycliff Ln, Brandon, FL 33511</p>
+  <p>Cell Phone: 813-650-3511</p>
+  <p>Email: marrerovictor499@gmail.com</p>
+
+  <hr size=2 nonshade>
+
+  <form action="mailto:marrerovictor499@gmail.com" method="post" enctype="text/plain"> <!-- the action here allows the user to send a message to my gmail account once he clicks the "Submit" button. You can delete the initial word "class" after form to add the "enctype" at the end so the received of the message understand the text.-->
+
+    <label>Your Name:</label> <!--The label tag is what's displayed on the form for the user to input.  What information you need to user to input.-->
+    <input type="text" name="yourName" value=""><br> <!--The Input tag allows the user to store the information inputted on the "Label" tag above. The type is "Text" so the user can only input text-->
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br> <!-- the tag "br" is a line break so it forces the coe to move to the next row below. -->
+    <label>Please provide your feedback on this initial website:</label><br>
+    <textarea name="yourMessage" rows="10" cols="60"></textarea><br>
+
+    <input type="Submit" name=""> <!--The Input tag created a Submit button for the user to click after inputting their name above.On this input box you delete the value parameter at the end.-->
+
+    <!--The below list are examples of the type of input boxes you can put on a form for the user to interact.-->
+
+    <!-- <input type="submit" name="">  This inputbox creates a submit button for the user to click.-->
+    <!-- <input type="file" name="">  This inputbox allows the user to search for a file and submit.-->
+    <!-- <input type="date" name="">  This inputbox allows the user to search for a date on a calendar picker.-->
+    <!-- <input type="radio" name="">  This inputbox allows the user to click a radio button.-->
+    <!-- <input type="range" name="">  This inputbox allows the user to indicate a range.-->
+    <!--  <input type="checkbox" name="" value="">  This Input tag "Checkbox" allows  the user to have a checkbox in front of the submit button.-->
+    <!-- <input type="color" name="" value=""> The Input tag allows the user to pick a color before the submit button.  The "br" is a line break that forces another row.-->
+    <!-- This line asks the user if he/she wants to sign up for the email list. <label>Do you want to sign up to the email list?</label>  -->
+    <!-- <form class="" action="index.html" method="post">  The "action" tag here shows "index.html" so this is the action that the user will have when clicking the "Submit" botton.  It will take the user to the "index.html" page. -->
+
+  </form>
+
+</body>
+
+</html>
